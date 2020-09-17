@@ -5,12 +5,12 @@
         "methods": [
           "GET"
         ],
-        "route": "/loaderio-%LOADER_IO_VERIFICATION_ID%"
+        "route": "/loaderio-%LOADERIO_VERIFICATION_TOKEN%"
       },
       "responseOverrides": {
         "response.statusCode": "200",
         "response.headers.Content-Type": "text/plain",
-        "response.body": "loaderio-%LOADER_IO_VERIFICATION_ID%"
+        "response.body": "loaderio-%LOADERIO_VERIFICATION_TOKEN%"
       }
     }
   }

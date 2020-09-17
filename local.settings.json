@@ -3,6 +3,6 @@
   "Values": {
     "FUNCTIONS_WORKER_RUNTIME": "node",
     "AzureWebJobsStorage": "",
-    "LOADER_IO_VERIFICATION_ID": "hello"
+    "LOADERIO_VERIFICATION_TOKEN": "hello"
   }
 }
