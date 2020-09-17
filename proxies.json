@@ -1,0 +1,17 @@
+{
+  "proxies": {
+    "loaderioverify": {
+      "matchCondition": {
+        "methods": [
+          "GET"
+        ],
+        "route": "/loaderio-%LOADER_IO_VERIFICATION_ID%"
+      },
+      "responseOverrides": {
+        "response.statusCode": "200",
+        "response.headers.Content-Type": "text/plain",
+        "response.body": "loaderio-%LOADER_IO_VERIFICATION_ID%"
+      }
+    }
+  }
+}
